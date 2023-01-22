@@ -34,6 +34,7 @@ class Buku :
   def __init__(self, judul, penulis):
     self.judul = judul
     self.penulis = penulis
+    self.harga = 20000
     self.buku = {}
   def view(self):
     self.buku = [judul][penulis]
